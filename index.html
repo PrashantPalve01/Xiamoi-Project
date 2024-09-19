@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi Store</title>
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        nav{
+            display: flex;
+            padding: 1% 5%;
+            border-bottom: 1px solid gray;
+        }
+        
+        #logo{
+            height: 30px;
+            border-radius: 10px;
+            float: left;
+        }
+        .nav_first_half{
+            width: 50%;
+        }
+        .nav_second_half{
+            width: 50%;
+            
+        }
+        .nav_first_ul{
+            margin-top: 6px;
+            margin-left: 100px;
+            display: flex;
+            justify-content: space-between;
+
+        } 
+        .first_li{
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav_second_ul{
+            margin-top: 6px;
+            display: flex;
+            justify-content: space-between;
+            margin-left:300px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .second_li{
+            display: inline-block;
+        }
+        i{
+            font-size: 25px;
+            margin-top: -5px;
+        }
+        section{
+            margin:3% 8%;
+        }
+        .first_boxes_section{
+            display: flex;
+            justify-content: space-between;
+        }
+        .first_boxes_carts{
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            width: 20%;
+            padding: 20px;
+        }
+        .heading{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px;
+        }
+        .offer{
+            background-color:rgb(255,240,229);
+            padding: 3px 7px;
+            border-radius: 7px;
+            border: 1px rgb(255,105,0) solid;
+            color: rgb(255,105,0) ;
+        }
+        .price_image_box{
+            display: flex;
+            justify-content: space-between;
+        }
+        .new_price{
+            margin: 120px 0px 0px 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .old_price{
+            text-decoration: line-through;
+            color: gray;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .product_image{
+            height: 180px;
+            width: 180PX;
+        }
+        .offer_cart{
+            margin-top: 40px;
+            margin-bottom: 40PX;
+        }
+        .offer_cart_image{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav_first_half">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/768px-Xiaomi_logo.svg.png" alt="" id="logo">
+                <ul class="nav_first_ul">
+                    <li class="first_li">Store</li>
+                    <li class="first_li">Phone</li>
+                    <li class="first_li">TV & Smart Home</li>
+                    <li class="first_li">Tablet</li>
+                    <li class="first_li">LifeStyle</li>
+                </ul>
+            </div>
+            <div class="nav_second_half">
+                <ul class="nav_second_ul">
+                    <li class="second_li">Discover</li>
+                    <li class="second_li">Support</li>
+                    <li class="second_li"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li class="second_li"><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li class="second_li"><i class="fa-regular fa-user"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="first_boxes_section">
+            <div class="first_boxes_carts">
+                <h2 class="heading">Redmi EarPhones</h2>
+                <span class="offer">25% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;499</h1>
+                        <p class="old_price">&#8377;599</p>
+                    </div>  
+                    <div >
+                        <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825722.98226831.png?thumb=1&w=360&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+            <div class="first_boxes_carts">
+                <h2 class="heading">Mi Dual Driver In-ear Earphones</h2>
+                <span class="offer">25% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;499</h1>
+                        <p class="old_price">&#8377;599</p>
+                    </div>  
+                    <div >
+                        <img src="https://i03.appmifile.com/9_item_in/01/08/2023/5b55c8858a7f2107e20d448e280e6357.jpg?thumb=1&w=200&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+            <div class="first_boxes_carts">
+                <h2 class="heading">Redmi Sonic Bass Wireless Earphones 2</h2>
+                <span class="offer">25% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;1,499</h1>
+                        <p class="old_price">&#8377;2,000</p>
+                    </div>  
+                    <div >
+                        <img src="https://i03.appmifile.com/279_item_in/11/02/2024/9c7c1abf55075e414e77f31e4fa3b0a4.jpg?thumb=1&w=200&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+            <div class="first_boxes_carts">
+                <h2 class="heading">Mi Portable Bluetooth Speaker (16W)</h2>
+                <span class="offer">42% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;1,999</h1>
+                        <p class="old_price">&#8377;3,499</p>
+                    </div>  
+                    <div >
+                        <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1613844064.93574921.jpg?thumb=1&w=200&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer_cart">
+            <img src="https://i03.appmifile.com/553_operator_in/16/09/2024/8d678aaaff73cd92bab292d45d6fe7e1.png?thumb=1&w=1680&f=webp&q=85" alt="" class="offer_cart_image">
+        </div>
+
+        <div class="first_boxes_section">
+            <div class="first_boxes_carts">
+                <h2 class="heading">Mi 67W SonicCharge 3.0 Charger Combo</h2>
+                <span class="offer">45% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;499</h1>
+                        <p class="old_price">&#8377;599</p>
+                    </div>  
+                    <div >
+                        <img src="https://i03.appmifile.com/869_item_in/09/10/2023/da7bb99fed4873314e1f0bb59e581254.jpg?thumb=1&w=200&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+            <div class="first_boxes_carts">
+                <h2 class="heading">Mi 2A Fast Charger with Cable</h2>
+                <span class="offer">25% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;499</h1>
+                        <p class="old_price">&#8377;599</p>
+                    </div>  
+                    <div >
+                        <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1575870690.22854399.jpg?thumb=1&w=200&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+            <div class="first_boxes_carts">
+                <h2 class="heading">Xiaomi SonicCharge 2.0 Cable</h2>
+                <span class="offer">50% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;499</h1>
+                        <p class="old_price">&#8377;599</p>
+                    </div>  
+                    <div >
+                        <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1681374947.32038137.jpg?thumb=1&w=200&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+            <div class="first_boxes_carts">
+                <h2 class="heading">Mi 18W Dual Port Charger + Mi USB Cable 120cm Black</h2>
+                <span class="offer">25% off</span>
+                <div class="price_image_box">
+                    <div>
+                        <h1 class="new_price">&#8377;499</h1>
+                        <p class="old_price">&#8377;599</p>
+                    </div>  
+                    <div >
+                        <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825722.98226831.png?thumb=1&w=360&f=webp&q=85" alt="" class="product_image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
